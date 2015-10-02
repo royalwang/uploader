@@ -1,0 +1,3 @@
+INSERT IGNORE INTO `events` VALUES (NULL,'user_upload_image','App\\EventHandler\\S3UploaderHandler@upload',NULL,0,'Upload images to S3 bucket');
+INSERT IGNORE INTO `events` VALUES (NULL,'user_upload_video','App\\EventHandler\\YouTubeUploaderHandler@upload',NULL,0,'Upload user videos to youtube');
+INSERT IGNORE INTO `events` VALUES (NULL,'user_upload_audio','App\\EventHandler\\S3UploaderHandler@upload',NULL,0,'Upload audio files to S3');

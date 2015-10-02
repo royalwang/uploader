@@ -1,0 +1,27 @@
+{
+  "name": "minutephp/uploader",
+  "description": "MinutePHP Plugin: uploader",
+  "keywords": [
+    "framework",
+    "minutephp",
+    "angularjs",
+    "uploader"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "San Kumar",
+      "email": "dev@minutephp.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "google/apiclient": "1.0.*@beta"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "minimum-stability": "dev"
+}

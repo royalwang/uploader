@@ -1,0 +1,1 @@
+DELETE FROM events where (handler LIKE '%S3UploaderHandler@%') OR (handler LIKE '%YouTubeUploaderHandler@%') LIMIT 100
